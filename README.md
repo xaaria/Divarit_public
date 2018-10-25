@@ -4,7 +4,7 @@
 
 Tehtävänanto 2018 :: http://www.sis.uta.fi/~tiko/materiaali/18/Tiko_harkkatyo_18_v2.pdf (tosin salasanan takana)
 
-Osa SQL:stä/Triggereistä on toteutettu todella "purkasti", koska osaaminen ja aika ei riittänyt. Tämä koskee lähinnä tilanteita joissa toiminnon pitäisi kohdistua dynaamisesti eri skeemoihin (<skeema>.<taulu>). Näissä tapauksissa on päädytty kovakoodaukseen.
+Osa SQL:stä/Triggereistä on toteutettu todella "purkasti", koska osaaminen ja aika ei riittänyt. Tämä koskee lähinnä tilanteita joissa toiminnon pitäisi kohdistua dynaamisesti eri skeemoihin (**skeema**.taulu). Näissä tapauksissa on päädytty kovakoodaukseen.
 
 *-- Harjoitustyössä oletetaan, että keskusdivari
 tarjoaa tietokantapalveluja, joihin yksittäinen divari voi tallentaa ja käsitellä teoksiin liittyviä tietoja.
