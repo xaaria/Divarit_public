@@ -1,10 +1,10 @@
 # Divarit
 
-###### Tietokantaohjelmointi (2018) -kurssin harjoitustyön SQL:t
+###### Tietokantaohjelmointi (2018) -kurssin harjoitustyön (lähinnä SQL:t)
 
-Tehtävänanto 2018 :: http://www.sis.uta.fi/~tiko/materiaali/18/Tiko_harkkatyo_18_v2.pdf (tosin salasanan takana)
+Tehtävänanto 2018 :: http://www.sis.uta.fi/~tiko/materiaali/18/Tiko_harkkatyo_18_v2.pdf (salasanan takana)
 
-Osa SQL:stä/Triggereistä on toteutettu todella "purkasti", koska osaaminen ja aika ei riittänyt. Tämä koskee lähinnä tilanteita joissa toiminnon pitäisi kohdistua dynaamisesti eri skeemoihin (**skeema**.taulu). Näissä tapauksissa on päädytty kovakoodaukseen.
+
 
 *-- Harjoitustyössä oletetaan, että keskusdivari
 tarjoaa tietokantapalveluja, joihin yksittäinen divari voi tallentaa ja käsitellä teoksiin liittyviä tietoja.
@@ -18,3 +18,4 @@ muodostaa oma skeema (osatietokanta). Perusratkaisussa rajoitutaan kahteen yksit
 (Lassen lehti) ja D2 (Galleinn Galle). Divari D1 käyttää omaa tietokantaa ja D2 keskusdivarin tietokantaa.
 Toisin sanoen työssä pitää toteuttaa vähintään kaksi kaavioita*
 
+Osa SQL:stä/Triggereistä on toteutettu todella "purkasti", koska osaaminen ja aika ei riittänyt. Tämä koskee lähinnä tilanteita joissa toiminnon pitäisi kohdistua dynaamisesti eri skeemoihin (**skeema**.taulu). Näissä tapauksissa on päädytty kovakoodaukseen.
